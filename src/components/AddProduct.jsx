@@ -17,6 +17,8 @@ const AddProduct = () => {
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setProduct({ ...product, [name]: value });
+    console.log(name);
+    
   };
 
   const handleImageChange = (e) => {
